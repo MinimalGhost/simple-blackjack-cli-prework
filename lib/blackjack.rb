@@ -20,7 +20,7 @@ def get_user_input
   return gets.chomp
 end
 
-def end_game
+def end_game(finalCount)
   puts "Sorry, you hit #{finalCount}. Thanks for playing!"
 end
 
@@ -61,5 +61,5 @@ def runner
     cardTotal = hit?(cardTotal)
     display_card_total(cardTotal)
   end
-  end_game
+  end_game(cardTotal)
 end
