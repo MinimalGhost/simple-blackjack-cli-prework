@@ -20,7 +20,7 @@ def get_user_input
   return gets.chomp
 end
 
-def end_game(finalCount)
+def end_game
   puts "Sorry, you hit #{finalCount}. Thanks for playing!"
 end
 
